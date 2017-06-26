@@ -1,29 +1,16 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.shepherdjerred</groupId>
+    <groupId>blue.tmad40</groupId>
     <artifactId>stHorses</artifactId>
-    <version>2.1.1-SNAPSHOT</version>
+    <version>2.1.2-SNAPSHOT</version>
     <name>stHorses</name>
-    <url>https://github.com/ShepherdJerred/stHorses</url>
+    <url>https://github.com/tmad40blue/stHorses</url>
     <description>Horse storing plugin for the Spigot API</description>
 
     <organization>
-        <name>Jerred Shepherd (RiotShielder)</name>
-        <url>http://shepherdjerred.com/</url>
+        <name>Dylan Larkins (tmad40blue)</name>
+        <url>http://tmad40.blue/</url>
     </organization>
-    
-    <distributionManagement>
-        <repository>
-            <id>thestorm-releases</id>
-            <name>Releases</name>
-            <url>http://ts-mc.net:8085/nexus/content/repositories/releases</url>
-        </repository>
-        <snapshotRepository>
-            <id>thestorm-snapshots</id>
-            <name>Snapshots</name>
-            <url>http://ts-mc.net:8085/nexus/content/repositories/snapshots</url>
-        </snapshotRepository>
-    </distributionManagement>
 
     <build>
         <resources>
@@ -79,7 +66,7 @@
         <dependency>
             <groupId>org.spigotmc</groupId>
             <artifactId>spigot-api</artifactId>
-            <version>${spgiot.api.version}</version>
+            <version>1.12-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
@@ -87,7 +74,7 @@
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-        <spgiot.api.version>1.11.2-R0.1-SNAPSHOT</spgiot.api.version>
+        <spgiot.api.version>1.12-R0.1-SNAPSHOT</spgiot.api.version>
     </properties>
 
 </project>

@@ -1,6 +1,6 @@
-package com.shepherdjerred.sthorses.files;
+package blue.tmad40.sthorses.files;
 
-import com.shepherdjerred.sthorses.Main;
+import blue.tmad40.sthorses.Main;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
 
@@ -43,7 +43,7 @@ public class FileManager {
 
             messages.load(messagesFile);
 
-            messages.setDefaults(YamlConfiguration.loadConfiguration(Main.getInstance().getResource("messages.yml")));
+            //messages.setDefaults(YamlConfiguration.loadConfiguration(Main.getInstance().getResource("messages.yml")));
             messages.options().copyDefaults(true);
             saveFiles(FileName.MESSAGES);
 

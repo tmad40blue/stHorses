@@ -1,10 +1,10 @@
-name: ${project.name}
-version: ${project.version}
-description: ${project.description}
-author: ${organization.name}
-website: ${organization.url}
+name: stHorses
+version: 2.1.2-SNAPSHOT
+description: Horse storing plugin for the Spigot API
+author: tmad40blue
+website: http://tmad40.blue/
 
-main: com.shepherdjerred.sthorses.Main
+main: blue.tmad40.sthorses.Main
         
 permissions:
     stHorses.*:

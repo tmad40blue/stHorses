@@ -1,6 +1,6 @@
-package com.shepherdjerred.sthorses.listeners;
+package blue.tmad40.sthorses.listeners;
 
-import com.shepherdjerred.sthorses.util.PlaceUtils;
+import blue.tmad40.sthorses.util.PlaceUtils;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.Material;

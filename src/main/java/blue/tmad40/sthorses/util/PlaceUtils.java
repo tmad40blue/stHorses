@@ -1,4 +1,4 @@
-package com.shepherdjerred.sthorses.util;
+package blue.tmad40.sthorses.util;
 
 import org.bukkit.Material;
 import org.bukkit.entity.AbstractHorse;

@@ -1,6 +1,6 @@
-package com.shepherdjerred.sthorses.messages;
+package blue.tmad40.sthorses.messages;
 
-import com.shepherdjerred.sthorses.files.FileManager;
+import blue.tmad40.sthorses.files.FileManager;
 import org.bukkit.ChatColor;
 
 public class MessageHelper {

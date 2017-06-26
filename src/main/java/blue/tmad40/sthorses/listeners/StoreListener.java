@@ -1,8 +1,8 @@
-package com.shepherdjerred.sthorses.listeners;
+package blue.tmad40.sthorses.listeners;
 
-import com.shepherdjerred.sthorses.Main;
-import com.shepherdjerred.sthorses.util.ItemUtils;
-import com.shepherdjerred.sthorses.util.StoreUtils;
+import blue.tmad40.sthorses.util.StoreUtils;
+import blue.tmad40.sthorses.Main;
+import blue.tmad40.sthorses.util.ItemUtils;
 import org.bukkit.Material;
 import org.bukkit.entity.AbstractHorse;
 import org.bukkit.entity.ChestedHorse;

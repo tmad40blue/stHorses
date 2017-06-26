@@ -1,10 +1,10 @@
 
-package com.shepherdjerred.sthorses;
+package blue.tmad40.sthorses;
 
-import com.shepherdjerred.sthorses.files.ConfigHelper;
-import com.shepherdjerred.sthorses.listeners.PlaceListener;
-import com.shepherdjerred.sthorses.listeners.StoreListener;
-import com.shepherdjerred.sthorses.metrics.MetricsLite;
+import blue.tmad40.sthorses.files.ConfigHelper;
+import blue.tmad40.sthorses.listeners.PlaceListener;
+import blue.tmad40.sthorses.listeners.StoreListener;
+import blue.tmad40.sthorses.metrics.MetricsLite;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import java.io.IOException;

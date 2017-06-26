@@ -1,4 +1,4 @@
-package com.shepherdjerred.sthorses.util;
+package blue.tmad40.sthorses.util;
 
 import org.bukkit.enchantments.Enchantment;
 import org.bukkit.inventory.ItemFlag;
