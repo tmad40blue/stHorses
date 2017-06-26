@@ -1,0 +1,8 @@
+store:
+    shiftClickIgnored: true
+
+# These don't work yet!
+place:
+    autoMount: false
+    safeSpawning: true
+    notOnInteractable: true

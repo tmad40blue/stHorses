@@ -1,0 +1,20 @@
+name: ${project.name}
+version: ${project.version}
+description: ${project.description}
+author: ${organization.name}
+website: ${organization.url}
+
+main: com.shepherdjerred.sthorses.Main
+        
+permissions:
+    stHorses.*:
+        description: Gives access to all plugin functions
+        children:
+            stHorses.save: true
+            stHorses.store: true
+    stHorses.place:
+        description: Allows saving horses to saddles
+        default: true
+    stHorses.store:
+        description: Allows spawning horses from saddles
+        default: true
